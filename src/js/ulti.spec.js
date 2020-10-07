@@ -1,4 +1,3 @@
-
 const {getSizeWindow,shuffle,rand} = require ("./ulti");
 describe("Ulti function", () => {
     test('getSizeWindow',()=>{
