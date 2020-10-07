@@ -1,0 +1,36 @@
+{
+  "name": "mazegame",
+  "version": "1.0.0",
+  "description": "mazegame for homework",
+  "main": "index.js",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "cjsc": "^1.0.11",
+    "jest": "^26.5.2",
+    "rollup": "^2.28.2"
+  },
+  "devDependencies": {
+    "canvas": "^2.6.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zipexpo/mazegame.git"
+  },
+  "author": "Ngan Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zipexpo/mazegame/issues"
+  },
+  "homepage": "https://github.com/Zipexpo/mazegame#readme"
+}
